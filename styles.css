@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  max-height: 40px;
+}
+
+main {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.property-display {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-property img {
+  max-width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.property-details {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.property-thumbnails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow thumbnails to wrap to the next line on small screens */
+  margin-top: 20px;
+}
+
+.property-thumbnails img {
+  max-width: 30%; /* Adjusted max width for better mobile visibility */
+  margin: 0 10px 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content img {
+  max-height: 30px;
+}
+
+.footer-content p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.buttons button {
+  background-color: #4caf50; /* Green color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.thank-you-section {
+  text-align: center;
+  background-color: #3498db; /* Blue background */
+  color: #fff; /* White text */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tick-image {
+  max-width: 50px; /* Adjust the size of the tick image */
+  margin-bottom: 20px;
+}
